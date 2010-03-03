@@ -10,7 +10,7 @@ $hoe = Hoe.spec 'rackspace-cloud' do
   self.developer 'Elliott Draper', 'el@ejdraper.com'
   self.post_install_message = 'PostInstall.txt'
   self.rubyforge_name       = self.name
-  self.extra_deps         = [['rest-client','>= 1.0.3'], ['activesupport','>= 2.3.4'], ['json', '1.2.0']]
+  self.extra_deps         = [['rest-client','1.3.1'], ['activesupport','>= 2.3.4'], 'json']
 end
 
 require 'newgem/tasks'
